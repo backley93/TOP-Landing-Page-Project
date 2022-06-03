@@ -1,13 +1,14 @@
 * {
-    background-color: #1F2937;
     font-family: sans-serif;
 }
 
 body {
-    padding: 0 250px 0 250px;
+    background-color: #1F2937;
+    margin: 8px 0px 8px 0px;
 }
 
 .header {
+    margin: 0 250px 100px 250px;
     color: white;
 }
 
@@ -57,10 +58,15 @@ body {
 .bike {
     width: 400px;
     height: 200px;
-    border: solid 2px #3882f6;
-    border-radius: 10px;
+    border: solid 2px rgb(150, 150, 150);
     object-fit: cover;
     object-position: 0 75%;
+}
+
+.info {
+    background-color: white;
+    padding: 25px 250px 0 250px;
+    text-align: center;
 }
 
 a {
