@@ -1,9 +1,26 @@
 * {
     background-color: #1F2937;
+    font-family: sans-serif;
+}
+
+body {
+    padding: 0 150px 0 150px;
 }
 
 .header {
     color: white;
+}
+
+.banner {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toplinks {
+    display: flex;
+    gap: 15px;
 }
 
 .signUp {
