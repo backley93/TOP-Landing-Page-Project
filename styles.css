@@ -55,9 +55,12 @@ body {
 }
 
 .bike {
-    width: 250px;
+    width: 400px;
+    height: 200px;
+    border: solid 2px #3882f6;
     border-radius: 10px;
-    border: solid 2px white;
+    object-fit: cover;
+    object-position: 0 75%;
 }
 
 a {
