@@ -1,0 +1,16 @@
+* {
+    background-color: #1F2937;
+}
+
+.header {
+    color: white;
+}
+
+.signUp {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
