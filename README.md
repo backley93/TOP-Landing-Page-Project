@@ -1,0 +1,1 @@
+This code repository is my landing page project for The Odin Project. I will be using the skills and knowledge I have gained in html and CSS up to this point to create it.

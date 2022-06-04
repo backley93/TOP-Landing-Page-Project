@@ -1,0 +1,179 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #1F2937;
+    margin: 8px 0px 8px 0px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.header {
+    margin: 0 250px 100px 250px;
+    color: white;
+}
+
+.banner {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toplinks {
+    display: flex;
+    gap: 15px;
+}
+
+.attention {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.hero {
+    width: 850px;
+}
+
+.herotext {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.join {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+button {
+    color: white;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 20px 5px 20px;
+}
+
+.bike {
+    width: 400px;
+    height: 200px;
+    border: solid 2px #3882f6;
+    object-fit: cover;
+    object-position: 0 75%;
+}
+
+.info {
+    background-color: white;
+    padding: 25px 350px 75px 350px;
+    text-align: center;
+    font-size: 36px;
+}
+
+.infotag {
+    color: #1f2937;
+}
+
+.pictext {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(100, 100, 100);
+    font-size: 16px;
+}
+
+.info1,
+.info2,
+.info3,
+.info4 {
+    width: 225px;
+}
+
+.infoImg {
+    width: 200px;
+    height: 200px;
+    border: solid 3px #3882f6;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: 0 25%;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 100px 350px 100px 350px;
+}
+
+.words {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    margin-top: 0px;
+}
+
+.customer {
+    text-align: right;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.footer {
+    color: white;
+    text-align: center;
+    padding: 25px 0 25px 0;
+}
+
+.action {
+    background-color: white;
+    margin: 0;
+    padding: 100px 300px 100px 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.bluebox {
+    width: 1000px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inbox {
+    width: 800px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.book,
+.howto {
+    margin: 0;
+    color: white;
+}
+
+.boxbutt {
+    border: solid 2px white;
+}
+
+.bookbutt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.book {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
